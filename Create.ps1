@@ -20,7 +20,7 @@ $creds = New-Object System.Management.Automation.PSCredential($username, $passwo
 $DJ1 = '{
     "Name": "mg01.prusand.com",
     "OUPath": "OU=Clients,OU=Machines,DC=mg01,DC=prusand,DC=com",
-    "User": "steven.clarkson@mg01.prusand.com",
+    "User": "XXXXXX",
     "Restart": "true",
     "Options": "3"
         }'
