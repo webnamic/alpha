@@ -18,8 +18,8 @@ $passwordsec = convertto-securestring $password -asplaintext -force
 $creds = New-Object System.Management.Automation.PSCredential($username, $passwordsec)
 
 $DJ1 = '{
-    "Name": "mg01.prusand.com",
-    "OUPath": "OU=Clients,OU=Machines,DC=mg01,DC=prusand,DC=com",
+    "Name": "XXXX.com",
+    "OUPath": "OU=Clients,OU=Machines,DC=abc,DC=def,DC=com",
     "User": "XXXXXX",
     "Restart": "true",
     "Options": "3"
